@@ -21,6 +21,5 @@ In version 1.1 of this portfolio project, the focus is on enhancing the interact
    - Continuously deploying the staging branch via Vercel to preview and test functionalities before merging into the main branch.
 
 **Learning Objectives:**
-   - Understanding how to link frontend components (social media icons, forms) to backend services.
    - Practicing backend and database integration for form handling.
    - Improving knowledge of deployment strategies and handling multiple environments (staging vs. production).
