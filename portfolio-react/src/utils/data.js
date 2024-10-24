@@ -18,8 +18,8 @@ export const PROFILE_DATA = {
         "DataBase Management",
         "React"
     ],
-    email: "linh@testmail.com",
-    phone: "+491621878899",
+    email: "jakuzzi263@icloud.com",
+    phone: "+491621878893",
 };
 
 export const SKILLS = [
