@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const config = require("./config.json");
+const mongoURI = process.env.MONGO_URI;
 const mongoose = require('mongoose');
 const Submission = require("./models/submission.model");
 
