@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const config = require("./config.json");
 const mongoose = require('mongoose');
+const Submission = require("./models/submission.model");
 
 mongoose.connect(config.connectionString);
 
@@ -59,6 +60,13 @@ app.post("/submit", async (req, res) => {
         return res.status(500).json({ error: true, message: "An unexpected error occurred. Please try again."})
     }
 });
+
+// Handler für Lambda
+exports.handler = (event, context, callback) => {
+    // Integriere Express mit Lambda
+    const server = require('serverless-http')(app);
+    return server(event, context, callback);
+};
 
 app.listen(3001);
 

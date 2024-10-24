@@ -1,0 +1,23 @@
+{
+  "name": "cloud-deployment",
+  "version": "0.1.0",
+  "bin": {
+    "cloud-deployment": "bin/cloud-deployment.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.163.1",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.38.0",
+    "@aws-cdk/aws-iam": "^1.204.0",
+    "@aws-cdk/aws-lambda": "^1.19.0",
+    "aws-cdk-lib": "2.146.0",
+    "constructs": "^10.0.0"
+  }
+}
