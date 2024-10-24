@@ -2,7 +2,7 @@ import { PROFILE_DATA } from '../utils/data';
 import PROFILE_PIC from '../assets/selfie2.png';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiMail } from 'react-icons/fi';
-import { MdInfoOutline, MdOutlineBadge } from 'react-icons/md';
+import { MdOutlineBadge } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
