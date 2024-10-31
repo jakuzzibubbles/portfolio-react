@@ -19,7 +19,7 @@ export const PROFILE_DATA = {
         "React"
     ],
     email: "jakuzzi263@icloud.com",
-    phone: "+491621878893",
+    phone: "+49123456789",
 };
 
 export const SKILLS = [
