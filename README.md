@@ -7,4 +7,4 @@ Throughout this process, I learned valuable lessons about problem-solving and de
 💡In conclusion, my journey in building and deploying a responsive website using React and Vite has been instrumental in advancing my skills in web development. This experience has provided a solid foundation for understanding application life cycles, which is critical for implementing effective CI/CD practices.
 
 Version1.0
-https://portfolio-hixh06a1p-linhs-projects-82a08f64.vercel.app/
+https://jakuzzibubbles-portfolio.vercel.app/
