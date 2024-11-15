@@ -22,7 +22,7 @@ const Hero = () => {
         <span className='text-xs md:text-sm text-cyan-400 font-thin'>
           A Cloud Rookie
         </span>
-        <h2 className='text-3xl mt-3 md:text-5xl md:mt-5'>{name} 🦉</h2>
+        <h2 className='text-3xl mt-3 md:text-5xl md:mt-5'>{name} 💫</h2>
         <p className='w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8'>{tagLine}</p>
         <button
         className='primary-btn'
