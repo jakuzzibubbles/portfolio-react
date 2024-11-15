@@ -4,9 +4,9 @@ import { FaCloud, FaProjectDiagram } from "react-icons/fa";
 import { GiSprint } from "react-icons/gi";
 
 export const PROFILE_DATA = {
-    name: "Linh Nguyen",
-    tagLine: `Dedicated Project Manager, exploring the Cloud and DevOps practices. Passionate about driving Digital Transformation, with lots of energy and a sense of humor.`,
-    jobTitle: "Project Manager",
+    name: "Gülcan Kamat",
+    tagLine: `Cloud and DevOps...`,
+    jobTitle: "DevOps Engineer",
     location: "Berlin",
     yearsOfExperience: 10,
     skills: [
@@ -18,8 +18,8 @@ export const PROFILE_DATA = {
         "DataBase Management",
         "React"
     ],
-    email: "jakuzzi263@icloud.com",
-    phone: "+49123456789",
+    email: "",
+    phone: "",
 };
 
 export const SKILLS = [
@@ -113,6 +113,7 @@ export const ABOUT_ME_DATA = {
         },
 };
 
+// hallo gülcan, hier muss noch eine section erstellt werden...hab ich noch nicht in v1...
 export const LANGUAGES = [
     { language: "Vietnamese", proficiency: "Native or Bilingual" },
     { language: "English", proficiency: "Full Professional" },
@@ -121,6 +122,7 @@ export const LANGUAGES = [
     { language: "German", proficiency: "Native or Bilingual" },
 ];
 
+// hier auch
 export const CERTIFICATIONS = [
     "Linux Professional Institute Linux Essentials",
     "AWS Certified Cloud Practitioner",
