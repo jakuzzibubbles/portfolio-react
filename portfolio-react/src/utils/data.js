@@ -6,7 +6,7 @@ import { GiSprint } from "react-icons/gi";
 export const PROFILE_DATA = {
     name: "Gülcan Kamat",
     tagLine: `Cloud and DevOps...`,
-    jobTitle: "Project Manager",
+    jobTitle: "DevOps Engineer",
     location: "Berlin",
     yearsOfExperience: 10,
     skills: [
