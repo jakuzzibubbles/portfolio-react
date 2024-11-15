@@ -126,7 +126,7 @@ export const LANGUAGES = [
 export const CERTIFICATIONS = [
     "Linux Professional Institute Linux Essentials",
     "AWS Certified Cloud Practitioner",
-    "Project Management with Scrum",
-    "Asana Ambassador",
+    "PSM I",
+    
 ];
 
