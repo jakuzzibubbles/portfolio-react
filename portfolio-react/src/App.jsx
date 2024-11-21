@@ -5,7 +5,7 @@ import Skills from './components/Skills';
 import WorkExperience from './components/WorkExperience';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
-import BG_MAGENTA from './assets/bg-magenta.jpg';
+import BG_MAGENTA from './assets/bg-magenta.png';
 import Footer from './components/Footer';
 
 const App = () => {
