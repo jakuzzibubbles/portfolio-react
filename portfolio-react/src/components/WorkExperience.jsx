@@ -1,3 +1,4 @@
+import React from 'react';
 import { WORK_EXPERIENCE } from '../utils/data';
 
 const WorkExperience = () => {

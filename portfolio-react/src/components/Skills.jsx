@@ -1,3 +1,4 @@
+import React from 'react';
 import { SKILLS } from '../utils/data';
 
 const Skills = () => {

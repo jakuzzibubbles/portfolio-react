@@ -1,3 +1,4 @@
+import React from "react";
 import { PROFILE_DATA  } from "../utils/data";
 import { IoMdMail, IoMdCall } from "react-icons/io";
 

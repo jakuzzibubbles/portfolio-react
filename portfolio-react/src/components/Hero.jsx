@@ -1,8 +1,9 @@
+import React from 'react';
 import { PROFILE_DATA } from '../utils/data';
 import PROFILE_PIC from '../assets/selfie2.png';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiMail } from 'react-icons/fi';
-import { MdInfoOutline, MdOutlineBadge } from 'react-icons/md';
+import { MdOutlineBadge } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
@@ -83,13 +84,13 @@ const Hero = () => {
 
           <div className="flex items-center gap-2 flex-wrap">
             <div className="bg-cyan-600 p-2 rounded">
-              <a href={githubUrl} target="_blank">
+              <a href={githubUrl} target="_blank" aria-label="GitHub">
                 <FaGithub className="text-lg md:text-xl" />
               </a>
             </div>
 
             <div className="bg-cyan-600 p-2 rounded">
-              <a href={linkedinUrl} target="_blank">
+              <a href={linkedinUrl} target="_blank" aria-label="LinkedIn">
                 <FaLinkedin className="text-lg md:text-xl" />
               </a>
             </div>
