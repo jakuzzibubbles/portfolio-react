@@ -1,23 +1,20 @@
 require('dotenv').config();
 
-const config = require("./config.json");
+const express = require("express");
+const cors = require("cors");
+
 const mongoose = require('mongoose');
-
-mongoose.connect(config.connectionString);
-
 const Submission = require("./models/submission.model");
 
-const express = require('express');
-const cors = require('cors');
 const app = express();
 
 app.use(express.json());
+app.use(cors({ origin: "*" }));
 
-app.use(
-    cors({
-        origin: "*",
-    })
-);
+mongoose.connect(process.env.MONGO_URI);
+mongoose.connection.on("connected", () => {
+  console.log("Connected to MongoDB");
+});
 
 // Sent Submission
 app.post("/submit", async (req, res) => {
@@ -60,6 +57,9 @@ app.post("/submit", async (req, res) => {
     }
 });
 
-app.listen(3001);
+const PORT = process.env.PORT;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
 
 module.exports = app;
