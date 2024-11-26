@@ -11,10 +11,12 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: "*" }));
 
-mongoose.connect(process.env.MONGO_URI);
-mongoose.connection.on("connected", () => {
-  console.log("Connected to MongoDB");
-});
+if (process.env.NODE_ENV !== "test") {
+  mongoose.connect(process.env.MONGO_URI);
+  mongoose.connection.on("connected", () => {
+    console.log("Connected to MongoDB");
+  });
+}
 
 // Sent Submission
 app.post("/submit", async (req, res) => {
@@ -57,9 +59,11 @@ app.post("/submit", async (req, res) => {
     }
 });
 
+if (process.env.NODE_ENV !== 'test') {
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+}
 
 module.exports = app;
