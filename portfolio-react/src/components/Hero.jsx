@@ -23,10 +23,7 @@ const Hero = () => {
     <section
       style={{
         backgroundImage: `url(${BG_MAGENTA})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        width: "100%",
-        height: "100vh",
+        backgroundPosition: `40% 40%`,
       }}
       className="max-w-screen-xl flex flex-col gap-4 md:flex-row md:items-center pt-16 md:pt-28 pb-20 px-6 mx-auto"
       id="hero"
