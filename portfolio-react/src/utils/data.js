@@ -64,46 +64,75 @@ export const SKILLS = [
 ];
 
 export const WORK_EXPERIENCE = [
-    {
-        id: "01",
-        company: "jakuzzi263",
-        position: "Business Owner",
-        duration: "November 2021 - October 2024",
-        description: "Partnering with businesses to achieve their digital goals. Optimizing workflows and processes to boost efficiency. I provide customized and streamlined project management solutions. Delivered remotely.",
-    },
-    {
-        id: "02",
-        company: "dreistrom.land AG",
-        position: "Quality Manager | Project Assistant",
-        duration: "April 2023 - May 2023",
-        description: "Supported quality management for web portal projects targeting public institutions. Assisted product owners, stakeholders, and application engineers to optimize task completion timelines.",
-    },
-    {
-        id: "03",
-        company: "Matok V'Kal Ltd",
-        position: "Business Development DACH",
-        duration: "June 2022 - November 2022",
-        description: "Conducted competitive analyses, generated high-quality leads, and facilitated meetings to align with company objectives in the DACH region's confectionery industry.",
-    },
-    {
-        id: "04",
-        company: "xtraz digital UG (haftungsbeschränkt)",
-        position: "Online Project Manager",
-        duration: "July 2022 - September 2022",
-        description: "Introduced daily meetings for team alignment, implemented task management boards, and communicated with stakeholders to ensure project objectives were met.",
-    },
-    {
-        id: "05",
-        company: "XWECAN",
-        position: "Operations DACH",
-        duration: "December 2021 - May 2022",
-        description: "Started as a research assistant, swiftly transitioning to oversee tools and operations.  Collaborated closely with the DACH account team and CEO, facilitating cross-team communication and ensuring seamless workflow.",
-    },
+  {
+    id: "01",
+    company: "jakuzzi263",
+    position: "Business Owner",
+    duration: "November 2021 - October 2024",
+    description: [
+      "Partnering with businesses to achieve their digital goals. Optimizing workflows and processes to boost efficiency. I provide customized and streamlined project management solutions. Delivered remotely. ",
+      "Led cross-functional teams in the successful execution of digital projects, delivering projects on time and within budget. ",
+      "Managed all aspects of project planning, including scope definition, resource allocation, and risk management. ",
+      "Oversaw the development and implementation of digital strategies, optimizing user experience and driving engagement. ",
+      "Collaborated with stakeholders to define project goals and deliverables, ensuring alignment with business objectives and KPIs.",
+    ],
+    offerings: [
+      "Strategic project management",
+      "Streamlined task organization",
+      "Clear communication",
+      "Data-driven insights",
+      "Technical proficiency in German and English",
+    ],
+  },
+  {
+    id: "02",
+    company: "dreistrom.land AG",
+    position: "Quality Manager | Project Assistant",
+    duration: "April 2023 - May 2023",
+    description: [
+      "Supported quality management for web portal projects targeting public institutions, employing agile methodologies.",
+      "Assisted product owners and stakeholders in requirement alignment and internal communication.",
+      "Collaborated with application engineers to optimize task completion timelines.",
+    ],
+  },
+  {
+    id: "03",
+    company: "Matok V'Kal Ltd",
+    position: "Business Development DACH",
+    duration: "June 2022 - November 2022",
+    description: [
+      "Conducted thorough competitive analyses to identify market opportunities and gain insights into the confectionery industry landscape in the DACH region.",
+      "Generated high-quality leads through targeted outreach and networking efforts.",
+      "Facilitated meetings between main decision-makers, ensuring alignment with company objectives.",
+    ],
+  },
+  {
+    id: "04",
+    company: "xtraz digital UG (haftungsbeschränkt)",
+    position: "Online Project Manager",
+    duration: "July 2022 - September 2022",
+    description: [
+      "Introduced and facilitated daily meetings to foster alignment among team members, ensuring efficient collaboration and project progress tracking.",
+      "Implemented a specialized task management board in project management software, streamlining workflow and enhancing team productivity.",
+      "Communicated with stakeholders to ensure alignment with project objectives and service delivery.",
+    ],
+  },
+  {
+    id: "05",
+    company: "XWECAN",
+    position: "Operations DACH",
+    duration: "December 2021 - May 2022",
+    description: [
+      "Started as a research assistant, swiftly transitioning to oversee tools and operations.",
+      "Collaborated closely with the DACH account team and CEO, facilitating cross-team communication and ensuring seamless workflow.",
+      "Supported the team with content creation based on data, contributing to the company's PR and marketing efforts.",
+    ],
+  },
 ];
 
 export const ABOUT_ME_DATA = {
     introduction: "Skilled and dedicated project manager with a diverse professional background, constantly seeking self-improvement. Motivated to deliver exceptional results, ensure seamless processes, and find innovative solutions that boost efficiency.",
-    background: "Experience in digital project management, agile methodologies, and business development across various industries. Strong in driving digital transformation and passionate about utilizing cloud technologies.",
+    background: "Experience in digital project management, agile methodologies, and business development across various industries. Strong in driving digital transformation by utilizing cloud technologies.",
     skills: "Top skills include Digital Project Management, Linux Essentials, Agile Methodologies, and Cloud Computing. Proficient in tools such as JIRA and Asana.",
     projects: "Have worked on various projects, including web portal quality management, business development in the DACH region, and team operations management.",
     interests: "Passionate about technology, continuous learning, and exploring new tools to streamline processes.",
