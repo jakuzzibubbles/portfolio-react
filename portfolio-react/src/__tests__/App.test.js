@@ -3,12 +3,15 @@ import { render, screen } from '@testing-library/react';
 import App from '../App';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+// Mock axiosInstance to avoid using import.meta.env during tests
+jest.mock("../utils/axiosInstance", () => ({
+  post: jest.fn(() => Promise.resolve({ data: { message: "Success" } })),
+}));
+
 describe('App Component', () => {
   test('renders App component with main sections', () => {
     render(
-      <Router>
         <App />
-      </Router>
     );
 
     // Check if the NavBar is rendered
