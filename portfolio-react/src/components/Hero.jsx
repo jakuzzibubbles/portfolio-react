@@ -5,6 +5,7 @@ import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiMail } from 'react-icons/fi';
 import { MdOutlineBadge } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import BG_MAGENTA from "../assets/bg-magenta.png";
 
 const Hero = () => {
   const {
@@ -20,6 +21,13 @@ const Hero = () => {
   } = PROFILE_DATA;
   return (
     <section
+      style={{
+        backgroundImage: `url(${BG_MAGENTA})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        width: "100%",
+        height: "100vh",
+      }}
       className="max-w-screen-xl flex flex-col gap-4 md:flex-row md:items-center pt-16 md:pt-28 pb-20 px-6 mx-auto"
       id="hero"
     >
