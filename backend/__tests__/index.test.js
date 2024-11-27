@@ -5,12 +5,12 @@ const app = require("../index");
 
 describe("POST /submit", () => {
   beforeAll(async () => {
-    process.env.NODE_ENV = "test"; // Ensure we're in test mode
+    process.env.NODE_ENV = "test";
     await mongoose.connect(process.env.MONGO_URI_TEST);
   });
 
   afterAll(async () => {
-    await mongoose.connection.close(); // Close the connection after all tests
+    await mongoose.connection.close();
   });
 
   beforeEach(async () => {
