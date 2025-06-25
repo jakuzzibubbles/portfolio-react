@@ -19,7 +19,7 @@ export const PROFILE_DATA = {
         "React"
     ],
     githubUrl: "https://github.com/jakuzzibubbles",
-    linkedinUrl: "https://www.linkedin.com/in/jakuzzi263/",
+    linkedinUrl: "https://www.linkedin.com/in/jakuzzibubbles/",
     email: "jakuzzi263@icloud.com",
     phone: "+49123456789",
 };
